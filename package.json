@@ -1,0 +1,34 @@
+{
+  "name": "sfax-provider",
+  "version": "1.0.2",
+  "description": "Sfax API Provider. Secure faxing integration for your node.js application",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./example-test/test.js",
+    "start": "node ./example-callback/hapi-callback-server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://archik@bitbucket.org/archik/sfax-provider.git"
+  },
+  "keywords": ["sfax", "fax", "faxes","aes","encryption"],
+  "author": {
+    "name": "Artur Basak",
+    "email": "artur.basak@instinctools.ru"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "dependencies": {
+    "request": "2.72.0"
+  },
+  "devDependencies": {
+    "hapi": "16.1.0"
+  },
+  "engines": {
+    "node": ">=6.9.1",
+    "npm": ">=3.10.8"
+  }
+}
