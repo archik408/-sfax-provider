@@ -11,7 +11,13 @@
     "type": "git",
     "url": "https://archik@bitbucket.org/archik/sfax-provider.git"
   },
-  "keywords": ["sfax", "fax", "faxes","aes","encryption"],
+  "keywords": [
+    "sfax",
+    "fax",
+    "faxes",
+    "aes",
+    "encryption"
+  ],
   "author": {
     "name": "Artur Basak",
     "email": "artur.basak@instinctools.ru"
@@ -22,7 +28,7 @@
     }
   ],
   "dependencies": {
-    "request": "2.72.0"
+    "request": "2.74.0"
   },
   "devDependencies": {
     "hapi": "16.1.0"
